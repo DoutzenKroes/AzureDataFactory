@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryTutorialJVW",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d9f3ef25-41b4-4b45-b192-0a323ec9ca1e",
+		"tenantId": "1335825c-8271-46b1-9492-e729636479ee"
+	}
+}

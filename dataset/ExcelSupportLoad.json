@@ -1,0 +1,34 @@
+{
+	"name": "ExcelSupportLoad",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Supporter",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SupporterData.xlsx",
+				"container": "supportermap"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Naam",
+				"type": "String"
+			},
+			{
+				"name": "Leeftijd",
+				"type": "String"
+			},
+			{
+				"name": "Club",
+				"type": "String"
+			}
+		]
+	}
+}
